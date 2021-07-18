@@ -4,7 +4,11 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<base target="_blank">
 
+	{% if page.title %}
+	<title class="pageTitle">{{ page.title }} | {{ site.page_title }}</title>
+	{% else %}
 	<title class="pageTitle">{{ site.page_title }}</title>
+	{% endif %}
 	<meta name="description" content="{{ site.app_description }}">
 
 	<link rel="shortcut icon" href="{{ site.app_icon | relative_url }}">
