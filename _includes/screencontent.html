@@ -15,11 +15,11 @@
         phoneScreen1 = $("#phoneScreen1");
         phoneScreen2 = $("#phoneScreen2");
 
-        phoneScreen1.fadeIn(0);
-        phoneScreen2.fadeOut(0);
+        phoneScreen1.animate({opacity: 1}, 0);
+        phoneScreen2.animate({opacity: 0}, 0);
         phoneScreen2.attr('src', phoneScreenshots[index]);
-        phoneScreen2.fadeIn(1000);
-        phoneScreen1.fadeOut(1000, function() {
+        phoneScreen2.animate({opacity: 1}, 1000);
+        phoneScreen1.animate({opacity: 0}, 1000, function() {
             phoneScreen1.attr('src', phoneScreen2.attr('src'))
         });
     };
