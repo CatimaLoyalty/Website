@@ -331,7 +331,7 @@ nav > ul li a:active {
 		text-align: center;
 	}
 	
-} 
+}
 
 .downloadButtonsContainer {
 	display: inline-block;
@@ -344,8 +344,31 @@ nav > ul li a:active {
 	.downloadButtonsContainer {
 		text-align: center;
 	}
-	
+
 } 
+
+.fdroid {
+	height: 75px;
+	margin-right: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+
+	.fdroid {
+		margin-right: 24px;
+		margin-bottom: 0px;
+	}
+
+} 
+
+@media only screen and (max-width: 528px) {
+
+	.fdroid {
+		margin-right: 0px;
+		margin-bottom: 24px;
+	}
+
+}
 
 .playStore {
 	height: 75px;

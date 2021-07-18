@@ -54,12 +54,16 @@
                             {% if site.playstore_link %}
                                 <a class="playStoreLink" href="{{site.playstore_link}}"><img class="playStore" src="assets/playstore.png"></a>
                             {% endif %}
-                            <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                            {% if site.fdroid_link %}
+                                <a class="fdroidLink" href="{{site.fdroid_link}}"><img class="fdroid" src="assets/fdroid.png"></a>
+                            {% endif %}
+                            {% if site.appstore_link %}
+                                <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="assets/appstore.png"></a>
+                            {% endif %}
                         </div>
                     </div>
                     {% include features.html %}
                     {% include footer.html %}
-                    {% include appstoreimages.html %}
                 </div>
             </div>
         </div>
