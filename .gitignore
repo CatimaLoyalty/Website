@@ -2,3 +2,5 @@
 .sass-cache
 _site
 Gemfile.lock
+assets/screenshot
+_pages/changelog.md
