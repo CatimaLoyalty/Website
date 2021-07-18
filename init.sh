@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Images
+mkdir -p assets/screenshot
 curl https://raw.githubusercontent.com/TheLastProject/Catima/master/app/src/main/ic_launcher-playstore.png --output assets/appicon.png
 curl https://raw.githubusercontent.com/TheLastProject/Catima/master/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-01.png --output assets/screenshot/screenshot-01.png
 curl https://raw.githubusercontent.com/TheLastProject/Catima/master/fastlane/metadata/android/en-US/images/phoneScreenshots/screenshot-02.png --output assets/screenshot/screenshot-02.png
