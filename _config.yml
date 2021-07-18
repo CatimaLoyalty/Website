@@ -54,6 +54,12 @@ features:
   description: Export your data with just a single press of a button.
   fontawesome_icon_name: file-export
 
+links:
+  - url: https://hosted.weblate.org/projects/catima/
+    title: Help Translate
+  - url: https://github.com/TheLastProject/Catima
+    title: Source Code
+
 # Theme Settings
 topbar_color: '#000000'
 topbar_transparency: 0.1
