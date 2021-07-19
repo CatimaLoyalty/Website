@@ -31,7 +31,7 @@ youtube_username:
 # Edit, add or remove features to be presented.
 features:
 - title: Truly Free
-  description: No ads, no tracking, no nonsense. Open Source because we have nothing to hide.
+  description: No ads, no tracking, no nonsense. <a href="https://github.com/TheLastProject/Catima">Open Source</a> because we have nothing to hide.
   fontawesome_icon_name: star
 
 - title: Easy As 1-2-3
@@ -43,11 +43,11 @@ features:
   fontawesome_icon_name: store
 
 - title: Sharing Is Caring
-  description: Easily share cards with other users.
+  description: Easily share cards with other users, even if they don't have Catima installed.
   fontawesome_icon_name: share-alt
 
 - title: Multilingual
-  description: Available in more than 20 community-contributed languages.
+  description: Available in more than 20 <a href="https://hosted.weblate.org/projects/catima/">community-contributed</a> languages.
   fontawesome_icon_name: globe
 
 - title: Own Your Data
@@ -55,8 +55,6 @@ features:
   fontawesome_icon_name: file-export
 
 links:
-  - url: https://hosted.weblate.org/projects/catima/
-    title: Help Translate
   - url: https://github.com/TheLastProject/Catima
     title: Source Code
 
