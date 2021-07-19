@@ -10,7 +10,7 @@ The following card was shared with you:
 
 <div id="sharedCardInfo" class="cardStyle">
     <strong id="sharedCardInfoStore"></strong>
-    <p><img id="sharedCardInfoBarcode"></p>
+    <p><canvas id="sharedCardInfoBarcode"></canvas></p>
     <div id="sharedCardInfoCardID"></div>
     <div id="sharedCardInfoBalance"></div>
     <div id="sharedCardInfoExpiry"></div>
@@ -87,14 +87,14 @@ After installing the app, just click the link you were given again and choose â€
                 "UPC_E": "upce"
             }
 
-            let canvas = document.createElement('canvas');
             try {
-                bwipjs.toCanvas(canvas, {
+                bwipjs.toCanvas(document.getElementById('sharedCardInfoBarcode'), {
                     bcid: catimaToBwipMap[data["barcodetype"]],
                     text: data["barcodeid"] ?? data["cardid"],
-                    includetext: false   
+                    includetext: false,
+                    backgroundcolor: "ffffff",
+                    padding: 2
                 });
-                document.getElementById('sharedCardInfoBarcode').src = canvas.toDataURL('image/png');
             } catch (e) {
                 // `e` may be a string or Error object
             }
