@@ -18,6 +18,7 @@ cat << EOF > _pages/changelog.md
 layout: page
 title: What's New
 include_in_header: true
+include_in_footer: true
 ---
 
 EOF
