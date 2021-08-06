@@ -104,7 +104,7 @@ After installing the app, just click the link you were given again and choose â€
             setField("CardID", data["cardid"]);
         };
         if (data['balance'] != null) {
-            setField("Balance", `${data["balance"]} ${data["balancetype"]}`);
+            setField("Balance", `${data["balance"]} ${data["balancetype"] ?? "points"}`);
         };
         if (data['expiry'] != null) {
             setField("Expiry", new Date(parseInt(data["expiry"])).toLocaleDateString())
