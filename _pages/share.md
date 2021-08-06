@@ -48,7 +48,7 @@ After installing the app, just click the link you were given again and choose â€
             "cardid": null,
             "barcodeid": null,
             "barcodetype": null,
-            "balancetype": "",
+            "balancetype": null,
             "expiry": null
         };
 
