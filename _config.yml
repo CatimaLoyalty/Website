@@ -47,7 +47,7 @@ features:
   fontawesome_icon_name: share-alt
 
 - title: Multilingual
-  description: Available in more than 20 <a href="https://hosted.weblate.org/projects/catima/">community-contributed</a> languages.
+  description: Available in more than 25 <a href="https://hosted.weblate.org/engage/catima/">community-contributed</a> languages.
   fontawesome_icon_name: globe
 
 - title: Own Your Data
