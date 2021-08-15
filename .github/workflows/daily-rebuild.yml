@@ -6,7 +6,7 @@ on:
 jobs:
   build:
     name: Request Netlify Webhook
-    environment: "Daily Rebuild"
+    environment: "daily_rebuild"
     runs-on: ubuntu-latest
     steps:
       - name: Curl request
