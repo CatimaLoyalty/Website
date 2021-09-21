@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target" : { "namespace": "android_app", "package_name": "me.hackerchick.catima",
+               "sha256_cert_fingerprints": [
+                 "D4:05:CD:69:ED:E4:C2:20:74:C3:28:FB:82:56:89:A8:4A:B3:FC:A4:B3:FD:F0:B6:CC:13:33:AF:62:C6:7E:B3",
+                 "75:FD:99:1B:AC:EA:84:8E:5A:BF:F1:4A:01:D9:60:9B:76:50:CF:03:06:B3:7A:60:ED:56:15:67:8C:B3:64:07",
+                 "62:86:4D:B7:87:CC:31:92:8D:C2:C1:14:67:3C:DB:B0:17:BE:AB:B1:3B:A6:DF:6A:E5:25:6E:73:8B:B9:53:AE"
+               ] }
+}]

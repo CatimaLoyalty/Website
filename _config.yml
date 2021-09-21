@@ -109,3 +109,7 @@ collections:
 
 # Markdown rendering
 markdown: kramdown
+
+# .well-known
+include:
+  - ".well-known"
