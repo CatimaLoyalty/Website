@@ -8,7 +8,7 @@ include_in_footer: true
 **Last updated**  
 October 28 2021
 
-# PRIVACY POLICY FOR CATIMA
+# Privacy Policy
 
 Catima does not collect or transmit any personal information.
 
