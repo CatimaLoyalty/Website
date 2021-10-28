@@ -10,10 +10,12 @@ October 28 2021
 
 # PRIVACY POLICY FOR CATIMA
 
-Catima does not collect or transmit any personal information. We require the following permissions:
+Catima does not collect or transmit any personal information.
 
-Camera: We need access to your camera to be able to scan barcodes. The app can still be used when camera access is denied, but you will have to manually type the barcode information.  
-Storage: We need access to your device storage to export and import backups.
+To ensure correct app functionality, we require access to the following:
+
+- Camera: We need access to your camera to be able to scan barcodes. The app can still be used when camera access is denied, but you will have to manually type the barcode information.
+- Storage: We need access to your device storage to create or import backups. The app can still be used when storage access is denied, but you will not be able to create or import backups.
 
 Catima offers a feature to share cards with other users. All the relevant data is in the generated shareable URLs and never transmitted to our servers. When viewed through catima.app, the data in the URL is rendered using client-side Javascript to further ensure no data is ever transmitted to us.
 
