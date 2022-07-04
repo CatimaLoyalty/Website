@@ -61,6 +61,9 @@
                             {% if site.appstore_link %}
                                 <a class="appStoreLink" href="{{site.appstore_link}}"><img class="appStore" src="/assets/appstore.png"></a>
                             {% endif %}
+                            {% if site.directDownload_link %}
+                                <a class="directDownloadLink" href="{{site.directDownload_link}}">Direct download</a>
+                            {% endif %}
                         </div>
                     </div>
                     {% include features.html %}
