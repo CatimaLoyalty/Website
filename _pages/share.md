@@ -12,7 +12,7 @@ The following card was shared with you:
     <strong id="sharedCardInfoStore" itemprop="hostingOrganization"></strong>
     <p><canvas id="sharedCardInfoBarcode"></canvas></p>
     <div id="sharedCardInfoCardID" itemprop="membershipNumber"></div>
-    <div id="sharedCardInfoBalance" itemprop="membershipPointsEarned"></div>
+    <div id="sharedCardInfoBalance"></div>
     <div id="sharedCardInfoExpiry"></div>
     <div id="sharedCardInfoNote"></div>
 </div>
