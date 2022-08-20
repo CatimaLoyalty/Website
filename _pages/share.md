@@ -8,10 +8,10 @@ include_in_header: false
 
 The following card was shared with you:
 
-<div id="sharedCardInfo" class="cardStyle">
-    <strong id="sharedCardInfoStore"></strong>
+<div id="sharedCardInfo" class="cardStyle" itemscope itemtype="https://schema.org/ProgramMembership">
+    <strong id="sharedCardInfoStore" itemprop="hostingOrganization"></strong>
     <p><canvas id="sharedCardInfoBarcode"></canvas></p>
-    <div id="sharedCardInfoCardID"></div>
+    <div id="sharedCardInfoCardID" itemprop="membershipNumber"></div>
     <div id="sharedCardInfoBalance"></div>
     <div id="sharedCardInfoExpiry"></div>
     <div id="sharedCardInfoNote"></div>
