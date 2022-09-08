@@ -17,7 +17,7 @@
 		</div>
 		<p class="headerName">{{ site.app_name }}</p>
 	</div>
-	<nav class="scroll">
+	<nav class="scroll notMobile">
 		<ul>
 			{% for page in site.pages %}
 				{% if page.include_in_header == true %}
@@ -25,7 +25,7 @@
 				{% endif %}
 			{% endfor %}
 			{% for link in site.links %}
-			    <li><a href="{{ link.url }}">{{ link.title }}</a></li>
+			    <li><a class="{{ page.classes }}" href="{{ link.url }}">{{ link.title }}</a></li>
 			{% endfor %}
 		</ul>
 	</nav>
