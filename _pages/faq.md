@@ -39,7 +39,7 @@ The slowest option is [Google Play](https://play.google.com/store/apps/details?i
 
 The first part of the reason is that there are many Google Play users and most of them need a lot more handholding and are a lot less patient and kind than F-Droid and IzzyOnDroid users. So, to prevent my mailbox from exploding if I ever accidentally release a buggy version I only roll it out to 10% of users per day.
 
-The second part is that Google's review process is very inconsistent in speed, sometimes they review within 24 hours, other times they take very long. Currently, the longest they have taken to review an update is 14 days (as of October 5th, 2022). 
+The second part is that Google's review process is very inconsistent in speed, sometimes they review within 24 hours, other times they take very long. Currently, the longest they have taken to review an update is 16 days (as of October 7th, 2022). 
 
 ## I don't like the new version, how do I downgrade?
 
