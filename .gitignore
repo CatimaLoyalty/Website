@@ -4,3 +4,6 @@ _site
 Gemfile.lock
 assets/screenshot
 _pages/changelog.md
+.DS_Store
+.jekyll-cache/
+assets/.DS_Store
