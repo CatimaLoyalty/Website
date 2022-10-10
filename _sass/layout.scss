@@ -27,7 +27,7 @@
 	}
 
 	.notMobile {
-		display: none !important;
+		font-size: 1.5rem;
 	}
 
 }
@@ -45,6 +45,7 @@
 	grid-template-columns: repeat(12, 1fr);
 	grid-template-rows: 115px 876px auto auto;
 	grid-column-gap: 30px;
+	overflow-x: hidden; 
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
