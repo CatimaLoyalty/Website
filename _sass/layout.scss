@@ -716,12 +716,38 @@ footer {
 
 .cardStyle {
 	width: max-content;
+	max-width: 300px;
 	font-size: larger;
-	background-color: lightcoral;
-	border-radius: 2em;
+	background-color: #235;
+	border-radius: 1em;
 	padding: 1.5em;
 	margin-top: 1em;
 	margin-bottom: 1em;
+	color: #FFF;
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
+}
+
+#sharedCardInfo > p {
+	margin: .5em -1.5em;
+	padding: .5em 1.5em;
+	background: #FFF;
+	text-align: center;
+}
+
+#sharedCardInfoCardID,
+#sharedCardInfoExpiry,
+#sharedCardInfoNote {
+	font-size: .65em;
+}
+
+#sharedCardInfoCardID,
+#sharedCardInfoExpiry {
+	text-transform: uppercase;
+	color: rgba(255,255,255,.6);
+}
+
+#sharedCardInfoNote {
+	margin-top: 1em;
 }
 
 .hidden {
