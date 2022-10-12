@@ -55,8 +55,12 @@ const getTextColor = backgroundColor => {
 
 
 
-const accentColor = androidToRGBA(getParameter('headercolor')),
-      textColor   = getTextColor(accentColor)
+if (window.location.href.includes('headercolor')) {
 
-document.documentElement.style.setProperty('--card-accent-color', accentColor)
-document.documentElement.style.setProperty('--card-text-color', textColor)
+		const accentColor = androidToRGBA(getParameter('headercolor')),
+		      textColor   = getTextColor(accentColor)
+
+	document.documentElement.style.setProperty('--card-accent-color', accentColor)
+	document.documentElement.style.setProperty('--card-text-color', textColor)
+
+}
