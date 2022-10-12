@@ -712,18 +712,18 @@ footer {
 		display: flex;
 	}
 	
-} 
+}
 
 .cardStyle {
 	width: max-content;
 	max-width: 300px;
 	font-size: larger;
-	background-color: #235;
+	background-color: var(--card-accent-color, #235);
 	border-radius: 1em;
 	padding: 1.5em;
 	margin-top: 1em;
 	margin-bottom: 1em;
-	color: #FFF;
+	color: var(--card-text-color, #FFF);
 	box-shadow: 0 0 10px 0 rgba(0,0,0,.1);
 }
 
@@ -743,7 +743,7 @@ footer {
 #sharedCardInfoCardID,
 #sharedCardInfoExpiry {
 	text-transform: uppercase;
-	color: rgba(255,255,255,.6);
+	opacity: .6;
 }
 
 #sharedCardInfoNote {
