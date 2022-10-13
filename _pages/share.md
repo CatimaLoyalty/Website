@@ -35,18 +35,11 @@ After installing the app, just click the link you were given again and choose â€
 
 <script src="/assets/bwip-js-min.js"></script>
 <script>
-function androidToRGBA (color) {
-  var colorArray = [];
-  // split android color string into it's R,G,B and A components
-  for (var i = 0; i < 4; i++) {
-    colorArray.push(color % 256);
-    color >>>= 8;
-  }
-  // remove alpha value from the original array
-  // and store it as it"s own variable
-  var alpha = colorArray.pop() / 255;
-  // return the color in RGBA format
-  return `rgba(${colorArray.reverse()},${alpha})`.replace("-", "");
+
+function androidToHex (color) {
+  var hex = parseInt(color);
+  if (color < 0) { hex = 0xFFFFFFFF + hex + 1; }
+  return `#${hex.toString(16).slice(2)}`;
 }
 
 function getTextColor (backgroundColor) {
@@ -142,7 +135,7 @@ if (window.location.hash) {
   // only run color calculations when values are set
   // otherwise use defaults
   if (data["headercolor"] != null) {
-    var accentColor = androidToRGBA(data["headercolor"]);
+    var accentColor = androidToHex(data["headercolor"]);
     var textColor = getTextColor(accentColor);
   } else {
     var accentColor = "#235";
