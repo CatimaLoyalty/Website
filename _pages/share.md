@@ -42,11 +42,16 @@ function androidToHex (color) {
   return `#${hex.toString(16).slice(2)}`;
 }
 
+function hexToRgb(hex) {
+  var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+  return `${parseInt(result[1], 16)}, ${parseInt(result[2], 16)}, ${parseInt(result[3], 16)}`;
+}
+
 function getTextColor (backgroundColor) {
-  var rgba = backgroundColor.replace("rgba(", "").replace(")", "");
-  var r = rgba.split(",")[0];
-  var g = rgba.split(",")[1];
-  var b = rgba.split(",")[2];
+  var rgb  = backgroundColor
+  var r = rgb.split(",")[0];
+  var g = rgb.split(",")[1];
+  var b = rgb.split(",")[2];
   // get YIQ ratio
   var yiq = ((r * 299) + (g * 587) + (b * 114)) / 1000;
   // return better contrasting color
@@ -136,7 +141,7 @@ if (window.location.hash) {
   // otherwise use defaults
   if (data["headercolor"] != null) {
     var accentColor = androidToHex(data["headercolor"]);
-    var textColor = getTextColor(accentColor);
+    var textColor = getTextColor(hexToRgb(accentColor));
   } else {
     var accentColor = "#235";
     var textColor = "#FFF"
