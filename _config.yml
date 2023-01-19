@@ -27,6 +27,14 @@ twitter_username:
 github_username: CatimaLoyalty
 youtube_username:
 
+# Accolade list
+accolades:
+- text: "[Catima] doesn't require internet access, shows no ads and doesn't share any data. That makes it the perfect solution."
+  publisher:
+    logo: ct.svg
+    name: "C't"
+  source: "https://youtu.be/0CjAPZ_IWVA?t=1537"
+
 # Feature List
 # Edit, add or remove features to be presented.
 features:
