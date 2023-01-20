@@ -402,6 +402,44 @@ nav > ul li a:active {
 	height: 75px;
 }
 
+.contributeText {
+	font-size: 1.75rem;
+	margin-top: 1em;
+	padding: 0.5em;
+	color: rgba(255,255,255,.6);
+	transition: 0.25s ease-in-out;
+}
+
+.contributeText a {
+	color: rgba(255,255,255,.6);
+}
+
+.contributeText:hover {
+	color: white;
+}
+
+.contributeText:hover a {
+	color: white;
+}
+
+@media only screen and (max-width: 528px) {
+    .contributeText {
+        text-align: center;
+        color: rgba(0,0,0,.6);
+    }
+
+    .contributeText a {
+        color: rgba(0,0,0,.6);
+    }
+
+    .contributeText:hover {
+        color: black;
+    }
+
+    .contributeText:hover a {
+        color: black;
+    }
+}
 
 
 // iPhone Device Preview

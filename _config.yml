@@ -54,9 +54,7 @@ features:
   description: Export your data with just a single press of a button.
   fontawesome_icon_name: file-export
 
-links:
-  - url: https://github.com/CatimaLoyalty
-    title: Source Code
+links: []
 
 # Theme Settings
 topbar_color: '#000000'
