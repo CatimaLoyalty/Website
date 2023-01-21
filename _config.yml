@@ -35,7 +35,7 @@ features:
   fontawesome_icon_name: star
 
 - title: Easy As 1-2-3
-  description: Just scan and go with the build-in barcode scanner.
+  description: Just scan and go with the built-in barcode scanner.
   fontawesome_icon_name: magic
 
 - title: Add Any Store
