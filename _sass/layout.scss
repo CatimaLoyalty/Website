@@ -49,6 +49,7 @@
 	grid-template-areas: 
 		"h h h h h h h h h h h h"
 		"p p p p p i i i i i i i"
+		"x x x x x a a a a a a a"
 		"c c c c c c c c c c c c"
 		"f f f f f f f f f f f f";
 }
@@ -75,6 +76,7 @@
 			"h h h h h h h h h h h h"
 			"i i i i i i i i i i i i"
 			"p p p p p p p p p p p p"
+		    "a a a a a a a a a a a a"
 			"c c c c c c c c c c c c"
 			"f f f f f f f f f f f f";
 	}
@@ -538,6 +540,33 @@ nav > ul li a:active {
 	
 } 
 
+.accolades {
+ 	grid-area: a;
+	margin-bottom: 3em;
+}
+
+@media only screen and (min-width: 993px) {
+    .accolades {
+    	position: absolute;
+		max-width: 1170px;
+		padding-left: 15px;
+		padding-right: 15px;
+    	top: 740px;
+    }
+
+	.accolade {
+		margin-left: 487.5px;
+		margin-right: 120px;
+	}
+}
+
+.accoladeLogoContainer {
+	text-align: right;
+}
+
+.accoladeLogo {
+	height: 3em;
+}
 
 // Feature List
 

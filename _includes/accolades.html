@@ -1,0 +1,23 @@
+<div class="accolades">
+
+    {% for accolade in site.accolades %}
+
+    {% if accolade.text %}
+    <div class="accolade">
+        <div class="accoladeText">
+            <h3>
+                {{ accolade.text }}
+            </h3>
+            {% if accolade.note %}
+            <small><em>({{ accolade.note }})<em></small>
+            {% endif %}
+            <p class="accoladeLogoContainer">
+            <a target="_blank" rel="noopener" href="{{ accolade.source }}"><img class="accoladeLogo" src="/assets/logos/{{ accolade.publisher.logo }}" alt="{{ accolade.publisher.name }}" /></a>
+            </p>
+        </div>
+    </div>
+    {% endif %}
+
+    {% endfor %}
+
+</div>
