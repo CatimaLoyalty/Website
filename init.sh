@@ -23,3 +23,15 @@ include_in_footer: true
 
 EOF
 curl https://raw.githubusercontent.com/CatimaLoyalty/Android/main/CHANGELOG.md >> _pages/changelog.md
+
+# Privacy Policy
+cat << EOF > _pages/privacy-policy.md
+---
+layout: page
+title: Privacy Policy
+include_in_header: false
+include_in_footer: true
+---
+
+EOF
+curl https://raw.githubusercontent.com/CatimaLoyalty/Android/main/PRIVACY.md >> _pages/privacy-policy.md
