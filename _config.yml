@@ -62,7 +62,9 @@ features:
   description: Export your data with just a single press of a button.
   fontawesome_icon_name: file-export
 
-links: []
+links:
+  - title: Chat
+    url: https://matrix.to/#/%23catima:matrix.org
 
 # Theme Settings
 topbar_color: '#000000'
