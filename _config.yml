@@ -39,7 +39,7 @@ accolades:
 # Edit, add or remove features to be presented.
 features:
 - title: Truly Free
-  description: No ads, no tracking, no nonsense. <a href="https://github.com/TheLastProject/Catima">Open Source</a> because we have nothing to hide.
+  description: No ads, no tracking, no nonsense. <a href="https://github.com/CatimaLoyalty/Android">Open Source</a> because we have nothing to hide.
   fontawesome_icon_name: star
 
 - title: Easy As 1-2-3
