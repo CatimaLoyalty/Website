@@ -1,4 +1,5 @@
 #!/bin/bash
+set -euo pipefail
 
 # Images
 mkdir -p assets/screenshot
