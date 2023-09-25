@@ -27,4 +27,4 @@ Catima's source code is available on [GitHub](https://github.com/CatimaLoyalty/A
 
 ## Donating
 
-If you feel like donating as a thank you, I accept donations through [GitHub Sponsors](https://github.com/sponsors/TheLastProject) and [PayPal](https://paypal.me/sylviavanos). But please do not feel pressured to :)
+You can [make a donation](/donate) to show your appreciation for the project.

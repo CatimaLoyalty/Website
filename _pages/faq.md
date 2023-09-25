@@ -15,7 +15,7 @@ Making money is not a goal of the Catima project. Giving users a privacy-friendl
 
 ## Do you accept donations?
 
-If you feel like donating as a thank you, I accept donations through [GitHub Sponsors](https://github.com/sponsors/TheLastProject) and [PayPal](https://paypal.me/sylviavanos). But please do not feel pressured to :)
+Yes. You can [make a donation](/donate) to show your appreciation for the project.
 
 ## How long does it take for an update to be available on F-Droid / Google Play?
 
