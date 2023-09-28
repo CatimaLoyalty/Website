@@ -1,0 +1,17 @@
+a.donate-button {
+        color: black;
+        background-color: #e6e6e6;
+        border: 1px solid #223355;
+        border-radius: 1rem;
+        padding: 0.75rem 1.5rem;
+}
+
+a.donate-button:hover {
+        color: white;
+        background-color: #223355;
+        text-decoration: none;
+}
+
+a.paypal-button {
+        background-color: #fdbb33;
+}
