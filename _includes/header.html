@@ -17,7 +17,12 @@
 		</div>
 		<p class="headerName">{{ site.app_name }}</p>
 	</div>
-	<nav class="scroll notMobile">
+	<button class="menu-button" id="header-menu-btn">
+		<div></div>
+		<div></div>
+		<div></div>
+	</button>
+	<nav class="menu-panel hide-in-phone" id="header-menu" data-controller="header-menu-btn">
 		<ul>
 			{% for page in site.pages %}
 				{% if page.include_in_header == true %}
