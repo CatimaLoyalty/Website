@@ -503,7 +503,7 @@ header {
 
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 1150px) {
 
 	.downloadButtonsContainer {
 		white-space: nowrap;
@@ -565,6 +565,12 @@ header {
 .directlink {
 	height: 75px;
 	margin-right: 24px;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1150px) {
+    .downloadButtonsContainer {
+        margin-top: 12px;
+    }
 }
 
 @media only screen and (max-width: 992px) {
