@@ -588,7 +588,7 @@ header {
 
 }
 
-@media only screen and (min-width: 528px) and (max-width: 694px) {
+@media only screen and (min-width: 528px) and (max-width: 693px) {
     .directlink {
         margin-top: 24px;
     }
@@ -623,7 +623,13 @@ header {
 	color: white;
 }
 
-@media only screen and (max-width: 694px) {
+@media only screen and (min-width: 528px) and (max-width: 693px) {
+    .contributeText {
+        margin-top: 24px;
+    }
+}
+
+@media only screen and (max-width: 693px) {
 	.contributeText {
 		text-align: center;
 		color: rgba(0, 0, 0, .6);
