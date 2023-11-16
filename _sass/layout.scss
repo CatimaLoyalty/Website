@@ -503,6 +503,15 @@ header {
 
 }
 
+@media only screen and (min-width: 992px) {
+
+	.downloadButtonsContainer {
+		white-space: nowrap;
+		overflow: visible;
+	}
+
+}
+
 .fdroid {
 	height: 75px;
 	margin-right: 24px;
@@ -551,6 +560,29 @@ header {
 
 .appStore {
 	height: 75px;
+}
+
+.directlink {
+	height: 75px;
+	margin-right: 24px;
+}
+
+@media only screen and (max-width: 992px) {
+
+	.directlink {
+		margin-right: 24px;
+		margin-bottom: 0px;
+	}
+
+}
+
+@media only screen and (max-width: 528px) {
+
+	.directlink {
+		margin-right: 0px;
+		margin-bottom: 24px;
+	}
+
 }
 
 .contributeText {
