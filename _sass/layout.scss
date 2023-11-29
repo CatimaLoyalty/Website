@@ -503,53 +503,8 @@ header {
 
 }
 
-.fdroid {
-	height: 75px;
-	margin-right: 24px;
-}
-
-@media only screen and (max-width: 992px) {
-
-	.fdroid {
-		margin-right: 24px;
-		margin-bottom: 0px;
-	}
-
-}
-
-@media only screen and (max-width: 528px) {
-
-	.fdroid {
-		margin-right: 0px;
-		margin-bottom: 24px;
-	}
-
-}
-
-.playStore {
-	height: 75px;
-	margin-right: 24px;
-}
-
-@media only screen and (max-width: 992px) {
-
-	.playStore {
-		margin-right: 24px;
-		margin-bottom: 0px;
-	}
-
-}
-
-@media only screen and (max-width: 528px) {
-
-	.playStore {
-		margin-right: 0px;
-		margin-bottom: 24px;
-	}
-
-}
-
-.appStore {
+.downloadButton {
+	width: 255px;
 	height: 75px;
 }
 
