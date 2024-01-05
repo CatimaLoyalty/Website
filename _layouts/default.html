@@ -65,11 +65,11 @@
                                 <a class="appStoreLink" href="{{site.appstore_link}}"><img class="downloadButton" src="/assets/appstore.png"></a>
                             {% endif %}
                             {% if site.directDownload_link %}
-                                <a class="directDownloadLink" href="{{site.directDownload_link}}"><img class="downloadButton" src="/assets/download.png"></a>
+                                <a id="directDownloadLink" href="{{site.directDownload_link}}"><img class="downloadButton" src="/assets/download.png"></a>
                             {% endif %}
                         </div>
                         <a href="/contribute">
-                            <p id="directDownloadLink" class="contributeText">Catima is a community project, learn how you can contribute <i class="fas fa-arrow-right pl-1"></i></p>
+                            <p class="contributeText">Catima is a community project, learn how you can contribute <i class="fas fa-arrow-right pl-1"></i></p>
                         </a>
                     </div>
                     {% include accolades.html %}
