@@ -64,6 +64,9 @@
                             {% if site.appstore_link %}
                                 <a class="appStoreLink" href="{{site.appstore_link}}"><img class="downloadButton" src="/assets/appstore.png"></a>
                             {% endif %}
+                            {% if site.directDownload_link %}
+                                <a class="directDownloadLink" href="{{site.directDownload_link}}"><img class="downloadButton" src="/assets/download.png"></a>
+                            {% endif %}
                         </div>
                         <a href="/contribute">
                             <p class="contributeText">Catima is a community project, learn how you can contribute <i class="fas fa-arrow-right pl-1"></i></p>
@@ -75,5 +78,18 @@
                 </div>
             </div>
         </div>
+        <script>
+            function showConfirmationDialog() {
+                var isConfirmed = confirm("Direct download excludes getting automatic updates. Use Google Play or F-Droid instead. Press 'OK' to download anyway.");
+                if (isConfirmed) {
+                    window.location.href = document.getElementById("directDownloadLink").href;
+                }
+            }
+
+            document.getElementById("directDownloadLink").addEventListener("click", function (event) {
+                event.preventDefault();
+                showConfirmationDialog();
+            });
+        </script>
 </body>
 </html>
