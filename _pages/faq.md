@@ -35,7 +35,7 @@ IzzyOnDroid scans GitHub Releases once a day and instantly publishes the new ver
 
 The second fastest option is [F-Droid](https://f-droid.org/en/packages/me.hackerchick.catima/).
 
-F-Droid builds Catima from the publicly available source code and runs several scripts over it to ensure it is completely Open Source. An app update tends to be available between 3 and 6 days after release.
+F-Droid builds Catima from the publicly available source code. An app update tends to be available between 3 and 6 days after release.
 
 #### Google Play
 
