@@ -25,25 +25,27 @@ Yes. You can [make a donation](/donate) to show your appreciation for the projec
 
 An APK file for every update is published to [GitHub Releases](https://github.com/CatimaLoyalty/Android/releases) and submitted to Google Play (and automatically detected by IzzyOnDroid and F-Droid). Below is the list of "app stores" sorted by how fast they update.
 
+**Please note:** When switching app source, you will first have to uninstall Catima. To prevent data loss, make sure to use the Import/Export menu to export your data for re-import on the new install.
+
 #### IzzyOnDroid
 
 The fastest option is [IzzyOnDroid](https://apt.izzysoft.de/fdroid/index/apk/me.hackerchick.catima).
 
-IzzyOnDroid scans GitHub Releases once a day and instantly publishes the new version. The delay will be less than 24 hours.
+IzzyOnDroid scans GitHub Releases once a day and instantly publishes the new version. The delay is less than 24 hours, quite often IzzyOnDroid picks up the Catima update within a few hours of release.
 
 #### F-Droid
 
-The second fastest option is [F-Droid](https://f-droid.org/en/packages/me.hackerchick.catima/).
+Another option is [F-Droid](https://f-droid.org/en/packages/me.hackerchick.catima/).
 
-F-Droid builds Catima from the publicly available source code. An app update tends to be available between 3 and 6 days after release.
+F-Droid builds Catima from the publicly available source code. An app update tends to be available between 3 and 6 days after release but may take longer.
 
 #### Google Play
 
-The slowest option is [Google Play](https://play.google.com/store/apps/details?id=me.hackerchick.catima). The reason for this is two-fold.
+Another option is [Google Play](https://play.google.com/store/apps/details?id=me.hackerchick.catima).
 
-The first part of the reason is that there are many Google Play users and most of them need a lot more handholding and are a lot less patient and kind than F-Droid and IzzyOnDroid users. So, to prevent my mailbox from exploding if I ever accidentally release a buggy version I only roll it out to 10% of users per day.
+Google Play's speed of updating mostly depend on how long Google takes to review the update. Sometimes this is less than 24 hours, sometimes much longer (the current longest delay was 16 days on October 7th, 2022). Catima updates first gets published to Open Testing (everyone is free to join this through the [Android App Testing program](https://play.google.com/apps/testing/me.hackerchick.catima)) and then the update gets rolled out slowly (generally about 20% of users per day) to Production. When switching from Open Testing to Production Google has to review the update again, possibly adding extra delay.
 
-The second part is that Google's review process is very inconsistent in speed, sometimes they review within 24 hours, other times they take very long. Currently, the longest they have taken to review an update is 16 days (as of October 7th, 2022). 
+On average, Google Play Open Testing tends to be slower than IzzyOnDroid but faster than F-Droid. Google Play Production tends to be roughly as fast as F-Droid most of the time, sometimes faster and sometimes slower.
 
 ### I don't like the new version, how do I downgrade?
 
