@@ -7,11 +7,25 @@ include_in_footer: true
 
 # Frequently asked questions
 
+## Data
+
+### Does Catima collect any data?
+
+No. Catima does not collect any data and is designed to work fully offline. See also our [Privacy Policy](/privacy-policy).
+
+### Can I back up and restore my data?
+
+Catima supports both manual backups (through Catima's built-in Import/Export functionality) and automatic backups through Android Auto Backup.
+
+To back up or restore Catima's data manually, click the <kbd>⋮</kbd> (menu) button and choose Import/Export. Here you can export your data into a .zip file and later restore it. The .zip file can optionally be protected with a password.
+
+When Android Auto Backup is enabled (which it is by default on most Android systems) [Google will automatically make encrypted backups of apps on their servers](https://support.google.com/android/answer/2819582). On custom ROMs like LineageOS, CalyxOS, etc., backups are generally handled by [SeedVault](https://calyxinstitute.org/projects/seedvault-encrypted-backup-for-android) instead. However, for reliability reasons, it is recommended to use Catima's built-in Import/Export functionality instead as this functionality is better tested.
+
 ## Money
 
 ### What is Catima's business model? How does it make money?
 
-Catima is a hobby project made to give users a way to store loyalty cards and other barcode-based cards without having their private data sold. It is fully offline and doesn't send your data to any server. Please be aware that [Google will make encrypted backups of apps on their servers by default](https://support.google.com/android/answer/2819582).
+Catima is a hobby project made to give users a way to store loyalty cards and other barcode-based cards without having their private data sold. It is fully offline and doesn't send your data to any server.
 
 Making money is not a goal of the Catima project. Giving users a privacy-friendly alternative to other loyalty card apps is.
 
