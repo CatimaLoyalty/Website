@@ -17,9 +17,9 @@ No. Catima does not collect any data and is designed to work fully offline. See 
 
 Catima supports both manual backups (through Catima's built-in Import/Export functionality) and automatic backups through Android Auto Backup.
 
-To back up or restore Catima's data manually, click the ⋮ (menu) button and choose Import/Export. Here you can export your data into a (password protected if wanted) .zip file and later restore it.
+To back up or restore Catima's data manually, click the <kbd>⋮</kbd> (menu) button and choose Import/Export. Here you can export your data into a .zip file and later restore it. The .zip file can optionally be protected with a password.
 
-When Android Auto Backup is enabled (it is enabled by default on most Android systems) [Google will automatically make encrypted backups of apps on their servers](https://support.google.com/android/answer/2819582). On custom ROMs like LineageOS, CalyxOS, etc., backups are generally handled by [SeedVault](https://calyxinstitute.org/projects/seedvault-encrypted-backup-for-android) instead. However, for reliability reasons, it is recommended to use Catima's built-in Import/Export functionality instead as this functionality is better tested.
+When Android Auto Backup is enabled (which it is by default on most Android systems) [Google will automatically make encrypted backups of apps on their servers](https://support.google.com/android/answer/2819582). On custom ROMs like LineageOS, CalyxOS, etc., backups are generally handled by [SeedVault](https://calyxinstitute.org/projects/seedvault-encrypted-backup-for-android) instead. However, for reliability reasons, it is recommended to use Catima's built-in Import/Export functionality instead as this functionality is better tested.
 
 ## Money
 
