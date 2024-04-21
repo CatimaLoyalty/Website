@@ -37,7 +37,7 @@ Yes. You can [make a donation](/donate) to show your appreciation for the projec
 
 ### How long does it take for an update to be available?
 
-An APK file for every update is published to [GitHub Releases](https://github.com/CatimaLoyalty/Android/releases) and submitted to Google Play (and automatically detected by IzzyOnDroid and F-Droid). Below is the list of "app stores" sorted by how fast they update.
+An APK file for every update is published to [GitHub Releases](https://github.com/CatimaLoyalty/Android/releases) and submitted to Google Play (and automatically detected by IzzyOnDroid). Below is the list of "app stores" sorted by how fast they update.
 
 **Please note:** When switching app source, you will first have to uninstall Catima. To prevent data loss, make sure to use the Import/Export menu to export your data for re-import on the new install.
 
@@ -47,19 +47,11 @@ The fastest option is [IzzyOnDroid](https://apt.izzysoft.de/fdroid/index/apk/me.
 
 IzzyOnDroid scans GitHub Releases once a day and instantly publishes the new version. The delay is less than 24 hours, quite often IzzyOnDroid picks up the Catima update within a few hours of release.
 
-#### F-Droid
-
-Another option is [F-Droid](https://f-droid.org/en/packages/me.hackerchick.catima/).
-
-F-Droid builds Catima from the publicly available source code. An app update tends to be available between 3 and 6 days after release but may take longer.
-
 #### Google Play
 
 Another option is [Google Play](https://play.google.com/store/apps/details?id=me.hackerchick.catima).
 
 Google Play's speed of updating mostly depends on how long Google takes to review the update. Sometimes this is less than 24 hours, sometimes much longer (the current longest delay was 16 days on October 7th, 2022). Catima updates first get published to Open Testing (everyone is free to join this through the [Android App Testing program](https://play.google.com/apps/testing/me.hackerchick.catima)) and then the update gets rolled out slowly (generally about 20% of users per day) to Production. When switching from Open Testing to Production Google has to review the update again, possibly adding extra delay.
-
-On average, Google Play Open Testing tends to be slower than IzzyOnDroid but faster than F-Droid. Google Play Production tends to be roughly as fast as F-Droid most of the time, sometimes faster and sometimes slower.
 
 ### I don't like the new version, how do I downgrade?
 
