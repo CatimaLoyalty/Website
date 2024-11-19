@@ -20,18 +20,7 @@ The following card was shared with you:
 Want to have easy access to this card at any time? Consider installing Catima. It is free, Open Source and contains no ads.
 
 <div>
-    {% if site.izzyondroid_link %}
-        <a class="izzyOnDroidLink" href="{{site.izzyondroid_link}}"><img class="downloadButton" src="/assets/izzyondroid.png"></a>
-    {% endif %}
-    {% if site.fdroid_link %}
-        <a class="fdroidLink" href="{{site.fdroid_link}}"><img class="downloadButton" src="/assets/fdroid.png"></a>
-    {% endif %}
-    {% if site.playstore_link %}
-        <a class="playStoreLink" href="{{site.playstore_link}}"><img class="downloadButton" src="/assets/playstore.png"></a>
-    {% endif %}
-    {% if site.appstore_link %}
-        <a class="appStoreLink" href="{{site.appstore_link}}"><img class="downloadButton" src="/assets/appstore.png"></a>
-    {% endif %}
+    {% include download_buttons.html %}
 </div>
 
 After installing the app, just click the link you were given again and choose “Import into Catima”.
