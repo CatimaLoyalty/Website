@@ -52,21 +52,7 @@
                             </p>
                         </div>
                         <div class="downloadButtonsContainer">
-                            {% if site.izzyondroid_link %}
-                                <a class="izzyOnDroidLink" href="{{site.izzyondroid_link}}"><img class="downloadButton" src="/assets/izzyondroid.png"></a>
-                            {% endif %}
-                            {% if site.fdroid_link %}
-                                <a class="fdroidLink" href="{{site.fdroid_link}}"><img class="downloadButton" src="/assets/fdroid.png"></a>
-                            {% endif %}
-                            {% if site.playstore_link %}
-                                <a class="playStoreLink" href="{{site.playstore_link}}"><img class="downloadButton" src="/assets/playstore.png"></a>
-                            {% endif %}
-                            {% if site.appstore_link %}
-                                <a class="appStoreLink" href="{{site.appstore_link}}"><img class="downloadButton" src="/assets/appstore.png"></a>
-                            {% endif %}
-                            {% if site.directDownload_link %}
-                                <a id="directDownloadLink" href="{{site.directDownload_link}}"><img class="downloadButton" src="/assets/download.png"></a>
-                            {% endif %}
+                            {% include download_buttons.html %}
                         </div>
                         <a href="/contribute">
                             <p class="contributeText">Catima is a community project, learn how you can contribute <i class="fas fa-arrow-right pl-1"></i></p>
@@ -78,18 +64,5 @@
                 </div>
             </div>
         </div>
-        <script>
-            function showConfirmationDialog() {
-                var isConfirmed = confirm("Direct download excludes getting automatic updates. We recommend using IzzyOnDroid or Google Play instead. Press 'OK' to download anyway.");
-                if (isConfirmed) {
-                    window.location.href = document.getElementById("directDownloadLink").href;
-                }
-            }
-
-            document.getElementById("directDownloadLink").addEventListener("click", function (event) {
-                event.preventDefault();
-                showConfirmationDialog();
-            });
-        </script>
 </body>
 </html>
