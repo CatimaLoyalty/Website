@@ -1,0 +1,41 @@
+dialog {
+	position: fixed;
+	margin: auto;
+	padding: 20px;
+}
+
+dialog::backdrop {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+dialog p {
+	margin-bottom: 10px;
+}
+
+dialog button {
+	background-color: #04AA6D; /* Green */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	margin-left: 2px;
+	margin-right: 2px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+dialog button.dismiss {
+	background-color: #555555 /* Black */
+}
+
+dialog button:first-of-type {
+	margin-left: 0px;
+}
+
+dialog button:last-of-type {
+	margin-right: 0px;
+}
