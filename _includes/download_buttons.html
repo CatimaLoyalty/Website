@@ -12,18 +12,15 @@
 {% endif %}
 {% if site.directDownload_link %}
     <a id="directDownloadLink" href="{{site.directDownload_link}}"><img class="downloadButton" src="/assets/download.png"></a>
+    <dialog id="directDownloadDialog">
+        <p>Direct download excludes getting automatic updates. We recommend using IzzyOnDroid or Google Play instead.</p>
+        <button onClick="window.location.href='{{site.directDownload_link}}'">Download anyway</button>
+        <button class="dismiss" onClick="directDownloadDialog.close()">Cancel</button>
+    </dialog>
+    <script>
+        document.getElementById("directDownloadLink").addEventListener("click", function (event) {
+            event.preventDefault();
+            directDownloadDialog.showModal();
+        });
+    </script>
 {% endif %}
-
-<script>
-function showConfirmationDialog() {
-    var isConfirmed = confirm("Direct download excludes getting automatic updates. We recommend using IzzyOnDroid or Google Play instead. Press 'OK' to download anyway.");
-    if (isConfirmed) {
-        window.location.href = document.getElementById("directDownloadLink").href;
-    }
-}
-
-document.getElementById("directDownloadLink").addEventListener("click", function (event) {
-    event.preventDefault();
-    showConfirmationDialog();
-});
-</script>
