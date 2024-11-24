@@ -1,19 +1,30 @@
 {% if site.izzyondroid_link %}
-    <a class="izzyOnDroidLink" href="{{site.izzyondroid_link}}"><img class="downloadButton" src="/assets/izzyondroid.png"></a>
+    <a id="izzyOnDroidLink" href="{{site.izzyondroid_link}}"><img class="downloadButton" src="/assets/izzyondroid.png"></a>
 {% endif %}
 {% if site.fdroid_link %}
-    <a class="fdroidLink" href="{{site.fdroid_link}}"><img class="downloadButton" src="/assets/fdroid.png"></a>
+    <a id="fdroidLink" href="{{site.fdroid_link}}"><img class="downloadButton" src="/assets/fdroid.png"></a>
+    <dialog id="fdroidDialog">
+        <p>The F-Droid version is not maintained by the Catima team.{% if site.izzyondroid_link %} <a href="{{site.izzyondroid_link}}">Consider using IzzyOnDroid for faster updates of the official version.</a>{% endif %}</p>
+        <button onClick="window.location.href='{{site.fdroid_link}}'">Download</button>
+        <button class="dismiss" onClick="fdroidDialog.close()">Cancel</button>
+    </dialog>
+    <script>
+        document.getElementById("fdroidLink").addEventListener("click", function (event) {
+            event.preventDefault();
+            fdroidDialog.showModal();
+        });
+    </script>
 {% endif %}
 {% if site.playstore_link %}
-    <a class="playStoreLink" href="{{site.playstore_link}}"><img class="downloadButton" src="/assets/playstore.png"></a>
+    <a id="playStoreLink" href="{{site.playstore_link}}"><img class="downloadButton" src="/assets/playstore.png"></a>
 {% endif %}
 {% if site.appstore_link %}
-    <a class="appStoreLink" href="{{site.appstore_link}}"><img class="downloadButton" src="/assets/appstore.png"></a>
+    <a id="appStoreLink" href="{{site.appstore_link}}"><img class="downloadButton" src="/assets/appstore.png"></a>
 {% endif %}
 {% if site.directDownload_link %}
     <a id="directDownloadLink" href="{{site.directDownload_link}}"><img class="downloadButton" src="/assets/download.png"></a>
     <dialog id="directDownloadDialog">
-        <p>Direct download excludes getting automatic updates. We recommend using IzzyOnDroid or Google Play instead.</p>
+        <p>Catima does not include a built-in updater. You will not receive updates. We recommend using IzzyOnDroid, F-Droid or Google Play instead.</p>
         <button onClick="window.location.href='{{site.directDownload_link}}'">Download anyway</button>
         <button class="dismiss" onClick="directDownloadDialog.close()">Cancel</button>
     </dialog>
