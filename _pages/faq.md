@@ -47,6 +47,12 @@ The fastest option is [IzzyOnDroid](https://apt.izzysoft.de/fdroid/index/apk/me.
 
 IzzyOnDroid scans GitHub Releases once a day and instantly publishes the new version. The delay is less than 24 hours, quite often IzzyOnDroid picks up the Catima update within a few hours of release.
 
+#### F-Droid
+
+On average, [F-Droid](https://f-droid.org/en/packages/me.hackerchick.catima/) takes 3 to 8 days to update, but may take longer.
+
+The Catima team has no control over the F-Droid build or their update speed. For faster updates, add the IzzyOnDroid repository to your F-Droid client and install from there.
+
 #### Google Play
 
 Another option is [Google Play](https://play.google.com/store/apps/details?id=me.hackerchick.catima).
