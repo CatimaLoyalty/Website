@@ -7,7 +7,7 @@ include_in_footer: true
 
 # Frequently asked questions
 
-## Data
+## Data privacy
 
 ### Does Catima collect any data?
 
@@ -32,6 +32,22 @@ Making money is not a goal of the Catima project. Giving users a privacy-friendl
 ### Do you accept donations?
 
 Yes. You can [make a donation](/donate) to show your appreciation for the project.
+
+## Features
+
+### How does sharing cards work?
+
+When pressing the "Share" button, Catima will generate a "shareable URL". This URL contains all card data (except images) at the moment of sharing, similar to sharing an image file. No data is ever sent to Catima servers. Because all the data of a shared card is in the URL itself, shared cards *cannot* be revoked, so please be careful before sharing a card.
+
+For those nerdy among us to want to know the details: the data is put in the url "fragment", which is not sent to a webserver by browsers. It is then rendered into an image using client-side Javascript so the server never sees any of the data.
+
+### Does Catima support smartwatches?
+
+Smartwatch support in Catima is still quite limited. Currently only a few smartwatches are supported through [Gadgetbridge](https://gadgetbridge.org/basics/integrations/catima/).
+
+Wear OS smartwatches are not currently supported because Google has made the necessary libraries for it closed source. This will likely need an external app to support it. It is tracked [here](https://github.com/CatimaLoyalty/Android/issues/25).
+
+Please note that you need to enable "Allow other apps to access my data" in Catima Settings under Privacy to allow Gadgetbridge to request access to your cards.
 
 ## Updates
 
@@ -64,13 +80,3 @@ Google Play's speed of updating mostly depends on how long Google takes to revie
 Every release ever made is available on [GitHub Releases](https://github.com/CatimaLoyalty/Android/releases). Choose the version you want and download the attached .apk file.
 
 Do note that Android does not allow downgrading apps and requires you to uninstall the current version you have installed. To prevent data loss, make sure you export your database before your uninstall.
-
-## Features
-
-### Does Catima support smartwatches?
-
-Smartwatch support in Catima is still quite limited. Currently only a few smartwatches are supported through [Gadgetbridge](https://gadgetbridge.org/basics/integrations/catima/).
-
-Wear OS smartwatches are not currently supported because Google has made the necessary libraries for it closed source. This will likely need an external app to support it. It is tracked [here](https://github.com/CatimaLoyalty/Android/issues/25).
-
-Please note that you need to enable "Allow other apps to access my data" in Catima Settings under Privacy to allow Gadgetbridge to request access to your cards.
