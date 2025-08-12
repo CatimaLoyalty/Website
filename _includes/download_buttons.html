@@ -4,7 +4,7 @@
 {% if site.fdroid_link %}
     <a id="fdroidLink" href="{{site.fdroid_link}}"><img class="downloadButton" src="/assets/fdroid.png"></a>
     <dialog id="fdroidDialog">
-        <p>The F-Droid version is not maintained by the Catima team.{% if site.izzyondroid_link %} <a href="{{site.izzyondroid_link}}">Consider using IzzyOnDroid for faster updates of the official version.</a>{% endif %}</p>
+        <p>The F-Droid version is currently outdated due to build issues on F-Droid's site.{% if site.izzyondroid_link %} <a href="{{site.izzyondroid_link}}">Consider using IzzyOnDroid for faster updates of the official version.</a>{% endif %}</p>
         <button onClick="window.location.href='{{site.fdroid_link}}'">Download</button>
         <button class="dismiss" onClick="fdroidDialog.close()">Cancel</button>
     </dialog>
