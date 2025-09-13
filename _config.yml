@@ -64,6 +64,18 @@ features:
   description: Export your data with just a single press of a button.
   fontawesome_icon_name: file-export
 
+- title: Fully offline
+  description: Catima truly respects your privacy and never connects to the Internet. Your data remains on your device.
+  fontawesome_icon_name: shield-halved
+
+- title: Apple Pass compatible
+  description: See an "Add to Apple Pass" button on a website? One tap on it, and the card is available in Catima.
+  fontawesome_icon_name: ticket
+
+- title: Extendable
+  description: Works together with other Open Source apps like <a href="https://gadgetbridge.org/">GadgetBridge</a> and <a href="https://aisleron.com/">Aisleron</a> to supercharge your experience.
+  fontawesome_icon_name: layer-group
+
 links:
   - title: Chat
     url: https://matrix.to/#/%23catima:matrix.org
