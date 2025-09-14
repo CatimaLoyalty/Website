@@ -40,29 +40,29 @@ accolades:
 # Feature List
 # Edit, add or remove features to be presented.
 features:
-- title: Truly Free
-  description: No ads, no tracking, no nonsense. <a href="https://github.com/CatimaLoyalty/Android">Open Source</a> because we have nothing to hide.
+- title: Truly free
+  description: No ads, no tracking, no nonsense. Private and truly <a href="https://github.com/CatimaLoyalty/Android">Open Source</a>.
   fontawesome_icon_name: star
 
-- title: Easy As 1-2-3
+- title: Add any store easily
   description: Just scan and go with the built-in barcode scanner.
   fontawesome_icon_name: magic
 
-- title: Add Any Store
-  description: Supports more than 10 different barcode types.
-  fontawesome_icon_name: store
+- title: Store event and travel tickets
+  description: Add bought tickets through "Add to Apple Pass" buttons, PDF files or images.
+  fontawesome_icon_name: ticket
 
-- title: Sharing Is Caring
+- title: Sharing is caring
   description: Easily share cards with other users, even if they don't have Catima installed.
   fontawesome_icon_name: share-alt
 
-- title: Multilingual
-  description: Available in more than 40 <a href="https://hosted.weblate.org/engage/catima/">community-contributed</a> languages.
-  fontawesome_icon_name: globe
+- title: Own your data
+  description: All your data remains on your device and can be export with a single button press.
+  fontawesome_icon_name: shield-halved
 
-- title: Own Your Data
-  description: Export your data with just a single press of a button.
-  fontawesome_icon_name: file-export
+- title: For everyone
+  description: Translated in over 40 <a href="https://hosted.weblate.org/engage/catima/">community contributed</a> languages.
+  fontawesome_icon_name: globe
 
 links:
   - title: Chat
