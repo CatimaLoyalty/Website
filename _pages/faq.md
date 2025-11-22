@@ -73,7 +73,7 @@ The Catima team has no control over the F-Droid build or their update speed. For
 
 Another option is [Google Play](https://play.google.com/store/apps/details?id=me.hackerchick.catima).
 
-Google Play's speed of updating mostly depends on how long Google takes to review the update. Sometimes this is less than 24 hours, sometimes much longer (the current longest delay was 16 days on October 7th, 2022). Catima updates first get published to Open Testing (everyone is free to join this through the [Android App Testing program](https://play.google.com/apps/testing/me.hackerchick.catima)) and then the update gets rolled out slowly (generally about 20% of users per day) to Production. When switching from Open Testing to Production Google has to review the update again, possibly adding extra delay.
+Google Play's speed of updating mostly depends on how long Google takes to review the update and accept appeals to incorrect denials. Sometimes this is less than 24 hours, sometimes much longer (the current longest delay was 17 days on November 4th, 2025). Catima updates first get published to Open Testing (everyone is free to join this through the [Android App Testing program](https://play.google.com/apps/testing/me.hackerchick.catima)) and then the update gets rolled out slowly (generally about 20% of users per day) to Production. When switching from Open Testing to Production Google has to review the update again, possibly adding extra delay.
 
 ### I don't like the new version, how do I downgrade?
 
