@@ -11,13 +11,13 @@ include_in_footer: true
 
 ### What do I need to run Catima?
 
-Catima has very low system requirements and will run on almost every single Android device, including older devices and devices not having access to the Google Play Store. You will just need an Android device running Android 5 or later with about 10MB of storage space (more if you plan to save images with your cards).
+Catima has very low system requirements and will run on almost every single Android device, including older devices and devices not having access to the Google Play Store. You just need to be running Android 5 or later with about 10MB of storage space (more if you plan to save images with your cards).
 
 You can download the latest version of Catima by following the link to your prefered app store [from our homepage](/).
 
 If your Android device is very old, you can use one of the versions below. Do note that when using older versions you will miss out on the latest features and these versions will contain unfixed bugs.
 
-- Android 5.0 and up: [Latest release (click the button of your prefered app store](/)
+- Android 5.0 and up: [Latest release (click the button of your prefered app store)](/)
 - Android 4.1 to Android 4.4: [Catima 2.6.1](https://github.com/CatimaLoyalty/Android/releases/tag/v2.6.1)
 - Android 4.0.3 to Android 4.1: [Catima 1.4.1](https://github.com/CatimaLoyalty/Android/releases/tag/v1.4.1)
 
