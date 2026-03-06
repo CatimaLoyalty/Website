@@ -65,6 +65,16 @@ Please note that you need to enable "Allow other apps to access my data" in Cati
 
 ## Updates
 
+### What differences exist between app stores?
+
+Catima comes in two almost fully identical flavours: "FOSS" and "GPlay".
+
+The "FOSS" flavour is the default flavour and available through IzzyOnDroid, F-Droid and on GitHub.
+
+The "GPlay" flavour removes the "donate" button in the About screen, as Google forbids linking to any payment platform not on Google Play. It also adds a "Rate on Google Play" button to the About screen, which would make no sense if you're not getting the app from Google Play.
+
+There are no other differences between the versions. For your security we strongly discourage downloading Catima from any other source than IzzyOnDroid, F-Droid, GitHub or Google Play.
+
 ### How long does it take for an update to be available?
 
 An APK file for every update is published to [GitHub Releases](https://github.com/CatimaLoyalty/Android/releases) and submitted to Google Play (and automatically detected by IzzyOnDroid). Below is the list of "app stores" sorted by how fast they update.
