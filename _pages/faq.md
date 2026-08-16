@@ -74,6 +74,8 @@ Wear OS is supported since Catima v2.45.0 (released August 12th, 2026). It may n
 
 For Wear OS support, you must install the Wear OS companion app on your Wear OS device and enable "Sync with Wear OS" in Catima.
 
+The Wear OS companion app is available on [GitHub](https://github.com/CatimaLoyalty/Android/releases) and [F-Droid](https://f-droid.org/en/packages/me.hackerchick.catima/) (look for the releases marked as "Wear OS"). Google Play availability is still waiting Google approval.
+
 ## Updates
 
 ### What differences exist between app stores?
