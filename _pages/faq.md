@@ -58,11 +58,23 @@ For those nerdy among us to want to know the details: the data is put in the url
 
 ### Does Catima support smartwatches?
 
-Smartwatch support in Catima is still quite limited. Currently only a few smartwatches are supported through [Gadgetbridge](https://gadgetbridge.org/basics/integrations/catima/).
+Catima supports two smartwatch platforms: Gadgetbridge and Wear OS.
 
-Wear OS smartwatches are not currently supported because Google has made the necessary libraries for it closed source. This will likely need an external app to support it. It is tracked [here](https://github.com/CatimaLoyalty/Android/issues/25).
+#### Gadgetbridge support
 
-Please note that you need to enable "Allow other apps to access my data" in Catima Settings under Privacy to allow Gadgetbridge to request access to your cards.
+Gadgetbridge is supported since Catima v2.25.0 (released July 9th, 2023).
+
+For Gadgetbridge support, ensure your watch is supported by Gadgetbridge for Catima usage, see [Gadgetbridge's Catima support page](https://gadgetbridge.org/basics/integrations/catima/). Please note that Gadgetbridge replaces the official (closed source) phone app for your smartwatch and may be easy or complex to set up depending on the watch in question. For more information, see the [Gadgetbridge homepage](https://gadgetbridge.org/) or the [Gadgetbridge getting started guide](https://gadgetbridge.org/basics/). Gadgetbridge severely improves your privacy while using your smartwatch, so it is worth considering even if it doesn't support Catima on your smartwatch.
+
+On the Catima side, the "Sync with Gadgetbridge" setting must be enabled for Gadgetbridge support to work. It is enabled by default.
+
+#### Wear OS support
+
+Wear OS is supported since Catima v2.45.0 (released August 12th, 2026). It may not be available on all platforms yet.
+
+For Wear OS support, you must install the Wear OS companion app on your Wear OS device and enable "Sync with Wear OS" in Catima.
+
+The Wear OS companion app is available on [GitHub](https://github.com/CatimaLoyalty/Android/releases) and [F-Droid](https://f-droid.org/en/packages/me.hackerchick.catima/) (look for the releases marked as "Wear OS"). Google Play availability is still waiting Google approval.
 
 ## Updates
 
