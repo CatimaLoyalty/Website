@@ -3,6 +3,7 @@
 {% endif %}
 {% if site.fdroid_link %}
     <a id="fdroidLink" href="{{site.fdroid_link}}"><img class="downloadButton" src="/assets/fdroid.png"></a>
+    <!--- Disable F-Droid warning dialog as they ship RB now
     <dialog id="fdroidDialog">
         <p>The F-Droid version is not maintained by the Catima team.{% if site.izzyondroid_link %} <a href="{{site.izzyondroid_link}}">Consider using IzzyOnDroid for faster updates of the official version.</a>{% endif %}</p>
         <button onClick="window.location.href='{{site.fdroid_link}}'">Download</button>
@@ -14,6 +15,7 @@
             fdroidDialog.showModal();
         });
     </script>
+    -->
 {% endif %}
 {% if site.obtainium_link %}
     <a id="obtainiumLink" href="{{site.obtainium_link}}"><img class="downloadButton" src="/assets/obtainium.png"></a>
