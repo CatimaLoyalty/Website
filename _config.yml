@@ -53,6 +53,10 @@ features:
   description: Add bought tickets through "Add to Apple Pass" buttons, PDF files or images.
   fontawesome_icon_name: ticket
 
+- title: Always at your fingertips
+  description: Opens lightning fast and can sync with supported <a href="https://gadgetbridge.org/basics/integrations/cards/">Gadgetbridge</a> and Wear OS smartwatches.
+  fontawesome_icon_name: clock
+
 - title: Sharing is caring
   description: Easily share cards with other users, even if they don't have Catima installed.
   fontawesome_icon_name: share-alt
